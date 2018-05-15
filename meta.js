@@ -37,7 +37,7 @@ module.exports = {
       when: 'isNotTest',
       type: 'string',
       required: true,
-      message: 'Project name',
+      message: 'project name',
     },
     description: {
       when: 'isNotTest',
@@ -73,6 +73,11 @@ module.exports = {
       when: 'isNotTest',
       type: 'confirm',
       message: 'Install vue-router?',
+    },
+    scss: {
+      when: 'isNotTest',
+      type: 'confirm',
+      message: 'Install scss?',
     },
     lint: {
       when: 'isNotTest',

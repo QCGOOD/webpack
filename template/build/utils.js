@@ -61,6 +61,15 @@ exports.cssLoaders = function (options) {
     less: generateLoaders('less'),
     sass: generateLoaders('sass', { indentedSyntax: true }),
     scss: generateLoaders('sass'),
+    // 开启这个 即可全局使用sass 变量 方法
+    // scss: generateLoaders('sass').concat(
+    //   {
+    //     loader: 'sass-resources-loader',
+    //     options: {
+    //       resources: path.resolve(__dirname, '{url}')
+    //     }
+    //   }
+    // ),
     stylus: generateLoaders('stylus'),
     styl: generateLoaders('stylus')
   }
