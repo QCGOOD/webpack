@@ -7,13 +7,13 @@ import App from './App'
 {{#router}}
 import router from './router'
 {{/router}}
-import SpotlightUI from 'spotlight-ui'
-import 'spotlight-ui/lib/style/index.css'
+import Speed from 'speed-ui'
+import 'speed-ui/lib/style/index.css'
 import http from './api/http'
 
 Vue.config.productionTip = false
 Vue.prototype.$http = http;
-Vue.use(SpotlightUI)
+Vue.use(Speed)
 
 /* eslint-disable no-new */
 new Vue({

@@ -30,7 +30,7 @@
     {{#router}}
     "vue-router": "^3.0.1",
     {{/router}}
-    "spotlight-ui": "^1.0.1-a"
+    "speed-ui": "^1.0.0-alpha.1"
   },
   "devDependencies": {
     {{#lint}}
